@@ -2,10 +2,6 @@ packages:
   - name: default
     actions:
       - name: hello
-        environment:
-          VAR_1: ${ENV_VAR_1}
-        parameters:
-          PARAM_1: ${ENV_VAR_2}
         limits:
           timeout: 60
           memory: 10
